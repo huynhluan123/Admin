@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white : white;
+    --color_background:#001c41;
+}
+
+
+input {
+    border: none;
+    
+}
+ button {
+    
+    outline: none;
+    border: none;
+ }
+
+ a {
+    outline: none;
+    color: var(--white);
+    text-decoration: none;
+ }
+
+ .introduce {
+    padding-top: 50px;
+    padding-left: 50px;
+   
+ }

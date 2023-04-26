@@ -1,0 +1,286 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color:#f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    --m_bottom: 15px;
+    --height:60px;
+}
+
+.box_wrapper {
+    width: 98%;
+    height: 97%;
+    
+}
+
+.title_box {
+    width: 100%;
+    height: 38px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-left:4px solid #efcf68 ;
+    border-radius: 4px;
+}
+
+.title {
+    padding-left: 15px;
+}
+
+//box content
+.box_content {
+    width: 100%;
+    height: 90%;
+    margin-top: 15px;
+    background-color: #ffffff;
+}
+
+
+
+// box btn
+
+.box_btn{
+    padding-left: 8px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.btn_account {
+
+}
+
+// table
+.table_accounts {
+    border-top: 1px solid bisque;
+    margin-left: 2%;
+    width: 96%;
+    height: 80%;
+    overflow-y: auto;
+        overflow-x: hidden;
+   
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  .avatar {
+    width: 50px;
+  }
+
+  .box_btn_table {
+
+   
+  }
+
+//   .thread {
+//     position: fixed;
+//    width: 100%;
+//    height: 50px;
+//   }
+  .delete_account {
+   width: 40px;
+    color: rgb(211, 37, 37);
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid  transparent ;
+    background-color: transparent;
+    cursor: pointer;
+    &:hover {
+        border: 1px solid  rgb(200, 78, 78) ;
+        color : rgb(200, 78, 78);
+    }
+  }
+
+  //modal 
+
+  .ReactModal__Content {
+    width: 500px;
+    height: 300px;
+  }
+
+  //from edit
+
+  .wrapper_from {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form {
+    
+    width:70%;
+    height: 87%;
+    background-color: #001c41;
+    border-radius: 10px;
+  
+}
+
+.box_input {
+  width: 100%;
+  height: var(--height);
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: center;
+
+}
+
+.close_edit {
+  float: right;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(210, 200, 200);
+  color: black;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.title_edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  color: white;
+
+}
+
+.input_login {
+  width: 400px; 
+  height: 35px;
+  margin-bottom: 5px;
+  border:1px solid transparent;
+ 
+  font-size: 0.9rem;
+  padding-left: 15px;
+  color: black;
+  &::placeholder {
+      padding-left: 15px;
+      justify-content: center;
+
+      font-size: 0.8rem;
+  }
+
+  &:hover {
+      background-color: #b4bdc7;
+      color: var(--white);
+  }
+
+  &:focus-within {
+      display: block;
+      width: 400px; 
+      padding-left: 15px;
+      color: black;
+      font-size: 0.9rem;
+      outline: none;
+      border: 1px solid #b4bdc7 ;
+  }
+}
+
+.btn_login {
+  width: 100%;
+  height: var(--height);
+  background-color: #ea4c88;
+  color: var(--white);
+  border: none;
+  border-radius: 4px;
+  margin-bottom:var( --m_bottom);
+  
+  }
+
+.btn_button {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.btn_edit {
+  border-radius:4px ;
+  width: 20%;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  &:hover {
+    background-color: #d8d81d;
+    border: 1px solid rgb(250, 249, 252);
+  }
+}
+
+
+.avatar_edit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+
+}
+
+.wrapper_avatar {
+  width: 400px;
+  height: 95%;
+
+  margin-left: 50px;
+}
+
+.box_avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 100%;
+  background-color: var(--white);
+  
+  cursor: pointer;
+}
+
+.text_box {
+  display: flex;
+  align-items: center ;
+  width: 20%;
+  height: auto;
+  margin-left: 7px;
+}
+
+.text_edit {
+  color: var(--white);
+  width: auto;
+}
+
+.text_avatar {
+  color: var(--white);
+  margin-left: 5px;
+}
+
+.avatar_show {
+  width: 100%;
+}
